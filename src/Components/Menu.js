@@ -16,7 +16,7 @@ render(){return(<div id="menu">
         <br></br>
         <br></br>
         <label>Choose a color: </label>
-        <input type="color" id="colorselect" value={this.props.color==="transparent"?"#52cfa6":this.props.color}onChange={(event)=>
+        <input type="color" id="colorselect" value={this.props.color==="transparent"?"#aaffe3":this.props.color}onChange={(event)=>
             {event.preventDefault()
                 this.props.setColor(event.target.value)}}>
         </input>
